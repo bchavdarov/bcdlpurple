@@ -19,7 +19,7 @@ Clone or download this repository, change its name to something else (like, say,
 1. Search for `'bcdlpurple'` (inside single quotations) to capture the text domain and replace with: `'something-you-like'`.
 2. Search for `_bcdlpurple_` to capture all the functions names and replace with: `something_you_like`.
 3. Search for `Text Domain: bcdlpurple` in `style.css` and replace with: `Text Domain: something-you-like`.
-4. Search for <code>&nbsp;bcdlpurple</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
+4. Search for <code>&nbsp;bcdlpurple</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Something_you_Like</code>.
 5. Search for `bcdl-` to capture prefixed handles and replace with: `something-you-like-`.
 6. Search for `_BCDL_` (in uppercase) to capture constants and replace with: `SOMETHING_YOU_LIKE_`.
 
@@ -36,7 +36,7 @@ $ npm install
 
 ### Available CLI commands
 
-`BCDLpurple` comes packed with CLI commands tailored for WordPress theme development :
+`BCDLpurple` comes packed with CLI commands tailored for WordPress theme development:
 
 - `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
 - `composer lint:php` : checks all PHP files for syntax errors.
@@ -49,6 +49,6 @@ $ npm install
 - `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
 - `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+Now you're ready to go! The next step is easy to say, but harder to do: Make an beautiful WordPress theme. :)
 
 Good luck!
