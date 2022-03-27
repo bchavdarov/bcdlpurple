@@ -1,5 +1,6 @@
 # BCDLpurple
-BCDLpurple is a flexible and user-friendly theme for WordPress based on `underscores` and `Bootstrap 5`
+BCDLpurple is a flexible and user-friendly theme for WordPress based on `underscores` and `Bootstrap 5`.
+For now I have created only the repository, but soon the entire functionality of the theme will be available.
 
 Installation
 ---------------
