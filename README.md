@@ -42,7 +42,7 @@ $ npm install
 - `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
 - `composer lint:php` : checks all PHP files for syntax errors.
 - `composer make-pot` : generates a .pot file in the `languages/` directory.
-- `wp i18n make-pot . languages/bcdlpurple.pot` : another way to make .pot file in `languages/` directory (requires wp-cli installed)
+- `wp i18n make-pot . languages/bcdlpurple.pot` : another way to make .pot file in `languages/` directory (requires [wp-cli](https://make.wordpress.org/cli/handbook/guides/installing/) installed)
 - `npm run bcdlcss` : compiles SASS files to css.
 - `npm run bcdljs` : compiles JavaScript files to js.
 - `npm run compile:rtl` : generates an RTL stylesheet.
