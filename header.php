@@ -129,7 +129,7 @@
 
 	<?php
 		if ( is_home() || is_front_page() ) :
-			get_template_part( 'template-parts/section', 'carousel' );
+			get_template_part( 'template-parts/section', 'hero' );
 		else :
 			get_template_part( 'template-parts/header', 'archive' );
 		endif;
