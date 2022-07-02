@@ -18,7 +18,7 @@
 		<div class="bcdl-purple site-info bcdl-osc text-center">
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'bcdlpurple' ), 'bcdlpurple', '<a href="https://bchavdarov.github.io/bcdlab/">Boncho Chavdarov</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'bcdlpurple' ), 'bcdlpurple', '<a href="https://bchavdarov.github.io/bcdlab/">Boncho Chavdarov @ BCDLab</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
