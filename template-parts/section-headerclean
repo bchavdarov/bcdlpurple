@@ -1,0 +1,27 @@
+<?php
+/**
+ * Template part for clean header
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package BCDLpurple
+ */
+
+$headerId = get_theme_mod( 'bcdl-header-set' ); 
+
+?>
+
+<div class="header h-100" style="background-image: url('<?php echo wp_get_attachment_url( $headerId ) ?>'); background-size: cover;">
+
+	<div class="container h-100">
+		<div class="row h-100 align-items-center justify-content-end">
+			<div class="col-md-6 text-white" style="background-color:rgba(9,37,93,0.09);">
+				<h2 class="pt-4 display-3 bcdl-osc">Еилфикс България ООД</h2>
+				<hr class="">
+				<p class="pb-4 display-6 bcdl-os">Винаги едно чисто решение</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
+

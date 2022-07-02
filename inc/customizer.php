@@ -33,6 +33,7 @@ function bcdlpurple_customize_register( $wp_customize ) {
 	}
 	//============ bcdl includes ============
 	include 'bcdl-custfunctions.php';
+	include 'bcdl-headerclean.php';
 	include 'bcdl-carousel.php';
 	include 'dropdown-category.php';
 	include 'bcdl-featuredpage.php';

@@ -129,7 +129,8 @@
 
 	<?php
 		if ( is_home() || is_front_page() ) :
-			get_template_part( 'template-parts/section', 'hero' );
+			//get_template_part( 'template-parts/section', 'hero' );
+			get_template_part( 'template-parts/section', 'headerclean' );
 		else :
 			get_template_part( 'template-parts/header', 'archive' );
 		endif;
