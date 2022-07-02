@@ -24,4 +24,3 @@ $headerId = get_theme_mod( 'bcdl-header-set' );
 	</div>
 	
 </div>
-
