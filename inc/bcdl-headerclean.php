@@ -10,7 +10,7 @@
 $wp_customize->add_section( 'bcdl-header' , 
 		array(
 	    'title'      => __( 'Frontpage Header', 'bcdlpurple' ),
-	    'description' => __( 'Select image for the header. Must be 1200x400 pixels.', 'bcdlpurple' ),
+	    'description' => __( 'Select image for the header.', 'bcdlpurple' ),
 	    'priority'   => 200,
 		) 
 	);
