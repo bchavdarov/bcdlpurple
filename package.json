@@ -1,27 +1,29 @@
 {
   "name": "bcdlpurple",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A purple theme based on Underscores and Bootstrap.",
   "author": "BCDLab",
   "license": "GPL-2.0-or-later",
   "keywords": [
     "WordPress",
+    "Bootstrap",
     "Theme"
   ],
-  "homepage": "https://github.com/Automattic/_s#readme",
+  "homepage": "https://github.com/bchavdarov/bcdlpurple",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Automattic/_s.git"
+    "url": "git+https://github.com/bchavdarov/bcdlpurple"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/_s/issues"
+    "url": "https://github.com/bchavdarov/bcdlpurple/issues"
   },
   "devDependencies": {
-    "@wordpress/scripts": "^12.1.0",
+    "@wordpress/scripts": "^24.6.0",
+    "bootstrap": "^5.2.3",
     "dir-archiver": "^1.1.1",
-    "node-sass": "^4.14.1",
-    "rtlcss": "^2.5.0",
-    "uglify-js": "^3.13.3"
+    "node-sass": "^7.0.1",
+    "rtlcss": "^3.5.0",
+    "uglify-js": "^3.17.4"
   },
   "rtlcssConfig": {
     "options": {
@@ -38,15 +40,12 @@
   },
   "scripts": {
     "watch": "node-sass sass/ -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
-    "compile:css": "node-sass sass/ -o ./ && stylelint '*.css' --fix || true && stylelint '*.css' --fix",
     "bcdlcss": "node-sass sass/theme.scss bcdlcss/theme.css --output-style compressed && node-sass sass/woocommerce.scss bcdlcss/woocommerce.css --output-style compressed",
     "bcdljs": "uglifyjs node_modules/bootstrap/dist/js/bootstrap.bundle.js -c -m -o js/theme.min.js",
+    "compile:css": "node-sass sass/ -o ./ && stylelint '*.css' --fix || true && stylelint '*.css' --fix",
     "compile:rtl": "rtlcss style.css style-rtl.css",
     "lint:scss": "wp-scripts lint-style 'sass/**/*.scss'",
     "lint:js": "wp-scripts lint-js 'js/*.js'",
-    "bundle": "dir-archiver --src . --dest ../bcdlpurple.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map"
-  },
-  "dependencies": {
-    "bootstrap": "^5.0.0-beta2"
+    "bundle": "dir-archiver --src . --dest ../_s.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock"
   }
 }
