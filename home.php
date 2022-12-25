@@ -21,11 +21,11 @@ get_header();
 
 		get_template_part( 'template-parts/section', 'featuredpage' );
 
-    get_template_part( 'template-parts/section', 'featuredcategories' );
+    	get_template_part( 'template-parts/section', 'featuredcategories' );
 
-    get_template_part( 'template-parts/section', 'featuredposts' );
+    	get_template_part( 'template-parts/section', 'featuredposts' );
 
-    get_template_part( 'template-parts/section', 'owl' );
+    	get_template_part( 'template-parts/section', 'owl' );
 
 		?>
 
