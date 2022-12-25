@@ -23,7 +23,7 @@ Clone or download this repository, change its name to something else (like, say,
 5. Search for `bcdl-` to capture prefixed handles and replace with: `something-you-like-`.
 6. Search for `_BCDL_` (in uppercase) to capture constants and replace with: `SOMETHING_YOU_LIKE_`.
 
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `bcdlpurple.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
+Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `bcdlpurple.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme. 
 
 ### Setup
 
