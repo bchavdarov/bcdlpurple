@@ -18,8 +18,8 @@
 	<meta name="theme-color" content="#a020f0">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<style>
-		/*.bcdldropdown:hover .bcdldropdown-menu {
-			display: block;*/
+		.bcdldropdown:hover .bcdldropdown-menu {
+			/*display: block;*/
 		}
 	</style>
 	<script>
