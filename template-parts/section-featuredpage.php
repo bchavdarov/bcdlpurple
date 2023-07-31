@@ -30,8 +30,9 @@
     <?php endif; ?>
     
     <div class="row py-5">
-      <div class="col-md-4 rounded shadow" style="background-image: url('<?php echo( esc_url( get_the_post_thumbnail_url($home_page_post_id) ) ); ?>'); background-size: cover; background-position: center center;">
-      
+
+      <div class="col-md-4">
+      <img src="<?php echo( esc_url( get_the_post_thumbnail_url($home_page_post_id) ) ); ?>" class="img-fluid shadow rounded" alt="<?php echo get_post_meta( get_post_thumbnail_id($home_page_post_id), '_wp_attachment_image_alt', TRUE); ?>">
       </div>
       <div class="col-md-8 px-5">
         <?php echo $content_home; ?>    
