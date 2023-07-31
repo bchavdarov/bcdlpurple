@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#a020f0">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<style>
 		/*.bcdldropdown:hover .bcdldropdown-menu {
