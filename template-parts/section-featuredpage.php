@@ -31,10 +31,10 @@
     
     <div class="row py-5">
 
-      <div class="col-md-4">
+      <div class="col-lg-4 d-none d-lg-block">
       <img src="<?php echo( esc_url( get_the_post_thumbnail_url($home_page_post_id) ) ); ?>" class="img-fluid shadow rounded" alt="<?php echo get_post_meta( get_post_thumbnail_id($home_page_post_id), '_wp_attachment_image_alt', TRUE); ?>">
       </div>
-      <div class="col-md-8 px-5">
+      <div class="col-lg-8 px-5 d-block">
         <?php echo $content_home; ?>    
       </div>
     </div>
