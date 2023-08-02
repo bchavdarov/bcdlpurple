@@ -46,7 +46,7 @@
     <div class="w-100 d-flex justify-content-center"><hr class="w-25"></div>
     <p class="text-center text-muted pb-4 lead"><?php echo $sectionFCGSubTitle; ?></p>
     <?php endif; ?>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6">
       <div class="col py-2 py-md-4" data-aos="zoom-in" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
 
         <div class="card bcdl-mask-contain text-white">
